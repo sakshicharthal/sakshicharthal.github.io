@@ -1,24 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Projects | Sakshi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Sakshi Charthal</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav>
-    <a href="index.html">Home</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="skills.html">Skills</a> |
-    <a href="about.html">About</a> |
-    <a href="contact.html">Contact</a>
-</nav>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">Sakshi</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<h1>My Projects</h1>
+  <!-- Projects Section -->
+  <section class="projects">
+    <div class="container">
+      <h1>Projects</h1>
+      <p class="subtitle">
+        A selection of projects demonstrating my learning and practical work.
+      </p>
 
-<h3>Student Management System</h3>
-<p>Java application to manage student records.</p>
-<p><strong>Tech:</strong> Java, MySQL</p>
+      <div class="project-grid">
+
+        <!-- Project Card -->
+        <div class="project-card">
+          <h3>Student Management System</h3>
+          <p>
+            Java-based application to manage student records with CRUD
+            operations using OOP principles.
+          </p>
+          <span class="tech">Java • OOP • Console App</span>
+          <div class="links">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live</a>
+          </div>
+        </div>
+
+        <!-- Project Card -->
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            Personal portfolio built using HTML and CSS with a minimal,
+            professional design.
+          </p>
+          <span class="tech">HTML • CSS • GitHub Pages</span>
+          <div class="links">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
-
