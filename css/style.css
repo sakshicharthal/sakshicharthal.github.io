@@ -2,7 +2,7 @@ body {
   height:100%;
   font-family: Inter, sans-serif;
   margin: 0;
-  .main{
-  background-color:#fff;
+  main.section{
+  min-height:100vh;
   }
 }
