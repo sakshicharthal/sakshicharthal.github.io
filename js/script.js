@@ -1,2 +1,3 @@
-// Future interactivity
-console.log("Portfolio Loaded Successfully");
+// Portfolio JavaScript
+console.log("Sakshi Charthal Portfolio Loaded");
+
